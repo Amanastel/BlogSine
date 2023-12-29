@@ -131,12 +131,12 @@ export class Service{
         )
     }
 
-    // getFileDownload(fileId){
-    //     return this.bucket.getFileDownload(
-    //         conf.appwriteBucketId,
-    //         fileId
-    //     )
-    // }
+    getFileDownload(fileId){
+        return this.bucket.getFileDownload(
+            conf.appwriteBucketId,
+            fileId
+        )
+    }
 
 }
 
